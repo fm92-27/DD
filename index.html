@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/LatoLight.ttf">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<link rel="stylesheet" type="text/css" href="style/header.css">
+	<link rel="stylesheet" type="text/css" href="style/block-html-css-js.css">
+	<link rel="stylesheet" type="text/css" href="style/code.css">
+	<link rel="stylesheet" type="text/css" href="style/footer.css">
+	<title>Digital Design</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<li>
+				<a href="#main">Главная</a>
+			</li>
+			<li>
+				<a href="#HTML">HTML</a>
+			</li>
+			<li>
+				<a href="#CSS">CSS</a>
+			</li>
+			<li>
+				<a href="#JS">JS + Задание 2</a>
+			</li>
+		</nav>
+	</header>
+	<div class="content">
+		<section id="main">
+			<h1>Главная	</h1>
+			<p>Привет! Добро пожаловать в небольшой экскурс в мир Web-разработки. Не будем долго разглагольствовать, сразу перейдём к практике!</p>
+		</section>
+		<section id="HTML">
+			<h3>
+				HTML
+				<a href="#HTML">#</a>
+			</h3>
+			<div>
+				<main>
+					<p>HTML — это не продолжатель языка разметки гипертекста, а новая открытая платформа, предназначенная для создания веб-приложений использующих аудио, видео, графику, анимацию и многое другое.</p>
+					<p class="code">
+						<span class="code-blue code-doctype">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"</span>
+						<span class="code-blue code-doctype">"http://www.w3.org/TR/html4/strict.dtd"&gt;</span>
+						<span class="code-blue">&lt;html&gt;</span>
+							<span class="code-blue code-indent">&lt;head&gt;</span>
+								<span class="code-blue code-head-body">&lt;meta <span class="code-red">http-equiv=</span><span class="code-green">"Content-Type"</span></span>
+								<span class="code-blue code-head-body"><span class="code-red">content=</span><span class="code-green">"text/html; charset=utf-8"</span>&gt;</span>
+								<span class="code-blue code-head-body">&lt;title&gt;<span class="code-black">Моя первая веб-страница</span>&lt;/title&gt;</span>
+							<span class="code-blue code-indent">&lt;/head&gt;</span>
+							<span class="code-blue code-indent">&lt;body&gt;</span>
+								<span class="code-blue code-head-body">&lt;h1&gt;<span class="code-black">Заголовок страницы</span>&lt;/h1&gt;</span>
+								<span class="code-blue code-head-body">&lt;p&gt;<span class="code-black">Основной текст.</span>&lt;/p&gt;</span>
+							<span class="code-blue code-indent">&lt;/body&gt;</span>
+						<span class="code-blue">&lt;/html&gt;</span>
+					</p>
+				</main>
+				<aside>
+					<h4>Что нужно чтобы начать?</h4>
+					<ol>
+						<li>В Windows откройте программу Блокнот</li>
+						<li>Наберите или скопируйте код в Блокноте</li>
+						<li>Сохраните готовый документ с расширением html</li>
+						<li>Откройте сохранённый файл в любов Браузере</li>
+					</ol>
+					<h4>Поздравляю! Вы написали свой первый сайт!</h4>
+				</aside>
+			</div>
+			<div class="source">
+				Источник: <a href="http://htmlbook.ru" target="_blank">
+					<img src="http://htmlbook.ru/themes/hb/ico/favicon.svg" alt="" width="20px">Htmlbook.ru
+				</a>
+			</div>
+		</section>
+		<section id="CSS">
+			<h3>
+				CSS
+				<a href="#CSS">#</a>
+			</h3>
+			<h4>Давайте стилизуем наш файл?</h4>
+			<p>CSS — это язык, описывающий стиль HTML-документа. CSS описывает, как должны отображаться HTML-элементы.</p>
+			<p>В нашем файле, внутри тега &lt;head&gt;&lt;/head&gt; напишем тег &lt;style&gt;&lt;/style&gt;. И уже внутрь него давайте поместим следующий код.</p>
+			<p class="code">
+				<span><span class="code-brown">body</span> {</span>
+					<span class="code-indent"><span class="code-red2">background-color</span>: <span class="code-blue2">lightblue</span>;</span>
+				<span>}</span>
+				<span><span class="code-brown">h1</span> {</span>
+					<span class="code-indent"><span class="code-red2">color</span>: <span class="code-blue2">white</span>;</span>
+					<span class="code-indent"><span class="code-red2">text-align</span>: <span class="code-blue2">center</span>;</span>
+				<span>}</span>
+				<span><span class="code-brown">p</span> {</span>
+					<span class="code-indent"><span class="code-red2">font-family</span>: <span class="code-blue2">verdana</span>;</span>
+					<span class="code-indent"><span class="code-red2">font-size</span>: <span class="code-blue2">20px</span>;</span>
+				<span>}</span>
+			</p>
+			<h4>Неплохо получилось!</h4>
+			<div class="source">
+				Источник: <a href="https://html5css.ru" target="_blank">
+					<img src="https://html5css.ru/faviconcss3.png" alt="" width="20px">Html5css.ru
+				</a>
+			</div>
+		</section>
+		<section id="JS">
+			<h3>
+				JS
+				<a href="#JS">#</a>
+			</h3>
+			<p>Давайте посмотрим, что такого особенного в JavaScript, чего можно достичь с его помощью и какие другие технологии хорошо с ним работают.</p>
+			<h4>Что такое JavaScript?</h4>
+			<p>Изначально JavaScript был создан, чтобы «сделать веб-страницы живыми». Программы на этом языке называются скриптами. Они могут встраиваться в HTML и выполняться автоматически при загрузке веб-страницы. Скрипты распространяются и выполняются, как простой текст. Им не нужна специальная подготовка или компиляция для запуска.</p>
+			<h4>К практике!</h4>
+			<p>В тоь же файле, только внутри тега &lt;body&gt;&lt;/body&gt; напишем тег &lt;script&gt;&lt;/script&gt;. А в нём такой код.</p>
+			<p class="code">
+				<span>&lt;<span class="code-violet">script</span>&gt;</span>
+					<span class="code-indent"><span class="code-aqua">alert</span>(<span class="color-yellow">'Привет мир!'</span>);</span>
+				<span>&lt;/<span class="code-violet">script</span>&gt;</span>
+			</p>
+			<h4>Отлично!</h4>
+			<div class="source">
+				Источник: <a href="https://learn.javascript.ru" target="_blank">
+					<img src="https://learn.javascript.ru/img/favicon/favicon.png" alt="" width="20px">Learn.javascript.ru
+				</a>
+			</div>
+			<div>
+				<h4>Задание 2</h4>
+				<div class="input-btn">
+					<input type="date" id="input">
+					<button class="btn" onclick="getDayInfo()">Ответ</button>
+				</div>
+				<div>Результат: <span id="result"></span></div>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="footer">
+			<h3>Мои контакты</h3>
+			<div class="social">
+				<div>
+					<a href="https://vk.com/filinzev" target="_blank">
+						<img src="https://img.icons8.com/carbon-copy/40/000000/vk-com.png">
+					</a>
+					<a href="https://www.facebook.com/filinzev/" target="_blank">
+						<img src="https://img.icons8.com/carbon-copy/40/000000/instagram-new--v1.png">
+					</a>
+					<a href="https://www.instagram.com/filinzev/" target="_blank">
+						<img src="https://img.icons8.com/carbon-copy/40/000000/facebook.png">
+					</a>
+				</div>
+				<div>
+					CREATED BY FILINZEV MIKHAEL
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

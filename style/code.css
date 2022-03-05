@@ -1,0 +1,44 @@
+.code-blue {
+	color: rgb(0, 132, 255);
+	font-weight: bold;
+}
+
+.code-doctype {
+    font-weight: normal;
+}
+
+.code-red {
+    color: rgb(255, 0, 13);
+}
+
+.code-green {
+    color: rgb(0, 128, 32);
+}
+
+.code-black {
+    color: black;
+}
+
+.code-brown {
+    color: brown;
+}
+
+.code-red2 {
+    color: red;
+}
+
+.code-blue2 {
+    color: blue;
+}
+
+.code-violet {
+    color: blueviolet;
+}
+
+.code-aqua {
+    color: #32b3cf;
+}
+
+.color-yellow {
+    color: darkkhaki;
+}
